@@ -11,17 +11,20 @@
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 1rem 1rem;
-  background-color: #f1f1f1; 
   border-radius: 10px;
 }
 
-header img {
-    width: 1.1rem;
-    margin-right: 0.5rem;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
 }
 
-header p {
-    font-size: large;
-    font-weight: 600;
+
+ul li a {
+  text-decoration: none;
+  color: #23155B
+
 }
