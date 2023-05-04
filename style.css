@@ -5,26 +5,55 @@
 }
 
 .container {
-  padding: 0 1rem;
+  width: 95%;
+  margin: 0 auto;
 }
+
+/* Header section */
 
 header {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 1rem 1rem;
-  border-radius: 10px;
+  align-items: center;
+  padding: 0px;
+  gap: 159px;
+  height: 68px;
+  margin-top: 1rem;
+}
+
+nav {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  text-decoration: none;
+  color: #fff;
+  background: #8053ff;
+  border-radius: 8px;
+  padding: 12px 24px;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 24px;
 }
-
 
 ul li a {
   text-decoration: none;
-  color: #23155B
+  color: #23155b;
+}
 
+/* Hero section */
+
+#hero_section {
+  background-color: #fbfaff;
+  background-image: url(images/bg.png);
+  background-size: cover;
+  height: 800px;
+  background-repeat: no-repeat;
 }
